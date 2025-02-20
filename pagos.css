@@ -1,0 +1,17 @@
+.header-fondo{
+    width: 100%; 
+    height: 500px; 
+    margin-top: 0; 
+    overflow: hidden; 
+    will-change: transform;
+    position: relative;
+    background-color: #040404;
+}
+.Pagos{
+    display: inline-block;
+    background-color: #cb9ea7;
+    margin: auto;
+    padding: 50%;
+    text-transform: uppercase;
+    text-decoration:none ;
+}
