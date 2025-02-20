@@ -3,7 +3,7 @@ body{
 }
 .header-fondo{
     width: 100%; 
-    height: 500px; 
+    height: 340px; 
     margin-top: 0; 
     overflow: hidden; 
     will-change: transform;
@@ -108,8 +108,17 @@ background-color: #cb9ea7; /* Color de fondo del botón */
 }
 .tamano{
     height: 450px;
-    width: 250px;
-    
+    width: 250px;   
+}
+
+.color{
+    border-color: #84444c;
+    background-color: #ecdee1;
+}
+
+.color1{
+    background-color: #84444c;
+    color: white;
 }
 
 
