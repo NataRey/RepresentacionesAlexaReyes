@@ -1,17 +1,116 @@
+body{
+    background-color: #ecdee1;
+}
 .header-fondo{
     width: 100%; 
-    height: 500px; 
+    height: 340px; 
     margin-top: 0; 
     overflow: hidden; 
     will-change: transform;
     position: relative;
     background-color: #040404;
 }
-.Pagos{
-    display: inline-block;
-    background-color: #cb9ea7;
-    margin: auto;
-    padding: 50%;
-    text-transform: uppercase;
-    text-decoration:none ;
+.video{
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    object-fit: contain;
+    z-index: 1;
 }
+
+.video2{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    top: 0; 
+    left: 0; 
+}
+
+.header-content{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.redes {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    display: flex; /* Para que los iconos estén uno al lado del otro */
+    z-index: 3;
+}
+
+
+
+.social-icons i {
+font-size: 1.5rem;
+color: #cb9ea7;
+padding: .8rem 2rem;
+
+}
+
+.social-icons i:hover,
+.social-icons i:focus {
+color: #7c747c;
+}
+
+/* .redes-icon {
+width: 30px; /* Ajusta el tamaño de los iconos 
+height: 30px;
+margin-left: 10px; /* Espacio entre los iconos 
+transition: transform 0.2s ease; /* Transición para el efecto hover 
+}
+
+.redes-icon:hover {
+transform: scale(1.1);  /*Efecto de escala al pasar el mouse 
+} */
+
+.navbar{
+position: relative;
+top: 10px;
+letter-spacing: 5px;
+display: flex;
+z-index: 2;
+transition: background-color 0.3s ease, top 0.3s ease; /* Transición para top */
+}
+.navbar.fixed{
+position: fixed; /* Fijo en la parte superior */
+top: 0;
+left: 0;
+width: 100%;
+background-color: rgba(203, 158, 167, 0.9);
+z-index: 3;
+}
+.navbar-nav .nav-item {
+background-color: #cb9ea7; 
+transition: background-color 0.3s ease; 
+}
+.navbar-nav .nav-item:hover {
+background-color: #7c747c; /* Color al pasar el mouse */
+}
+.navbar-nav .nav-item .nav-link:active, /* Color al hacer clic */
+.navbar-nav .nav-item .nav-link.active { /* Para el enlace activo */
+background-color: #84444c;
+}
+.navbar-nav .nav-item .nav-link {
+color: white; /* Color de texto inicial */
+transition: color 0.3s ease; /* Transición suave para el color del texto */
+}
+.navbar-toggler {
+background-color: #cb9ea7; /* Color de fondo del botón */
+}
+.tamano{
+    height: 450px;
+    width: 250px;
+    
+}
+
+
+
