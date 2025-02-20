@@ -1,3 +1,6 @@
+body{
+    background-color: #ecdee1;
+}
 .header-fondo{
     width: 100%; 
     height: 500px; 
@@ -15,6 +18,14 @@
     left: 0; 
     object-fit: contain;
     z-index: 1;
+}
+
+.video2{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    top: 0; 
+    left: 0; 
 }
 
 .header-content{
@@ -96,8 +107,10 @@ transition: color 0.3s ease; /* Transición suave para el color del texto */
 background-color: #cb9ea7; /* Color de fondo del botón */
 }
 .tamano{
-height: 450px;
-width: 250px;
-
+    height: 450px;
+    width: 250px;
+    
 }
+
+
 
