@@ -47,8 +47,6 @@ body{
     z-index: 3;
 }
 
-
-
 .social-icons i {
 font-size: 1.5rem;
 color: #cb9ea7;
@@ -61,21 +59,12 @@ padding: .8rem 2rem;
 color: #7c747c;
 }
 
-/* .redes-icon {
-width: 30px; /* Ajusta el tamaño de los iconos 
-height: 30px;
-margin-left: 10px; /* Espacio entre los iconos 
-transition: transform 0.2s ease; /* Transición para el efecto hover 
-}
-
-.redes-icon:hover {
-transform: scale(1.1);  /*Efecto de escala al pasar el mouse 
-} */
-
 .navbar{
 position: relative;
 top: 10px;
-letter-spacing: 5px;
+left: 75px;
+letter-spacing: 8px;
+font-size: 15px;
 display: flex;
 z-index: 2;
 transition: background-color 0.3s ease, top 0.3s ease; /* Transición para top */
@@ -84,6 +73,7 @@ transition: background-color 0.3s ease, top 0.3s ease; /* Transición para top *
 position: fixed; /* Fijo en la parte superior */
 top: 0;
 left: 0;
+letter-spacing: 8px;
 width: 100%;
 background-color: rgba(203, 158, 167, 0.9);
 z-index: 3;
@@ -95,10 +85,10 @@ transition: background-color 0.3s ease;
 .navbar-nav .nav-item:hover {
 background-color: #7c747c; /* Color al pasar el mouse */
 }
-.navbar-nav .nav-item .nav-link:active, /* Color al hacer clic */
+/* .navbar-nav .nav-item .nav-link:active, /* Color al hacer clic */
 .navbar-nav .nav-item .nav-link.active { /* Para el enlace activo */
 background-color: #84444c;
-}
+} */
 .navbar-nav .nav-item .nav-link {
 color: white; /* Color de texto inicial */
 transition: color 0.3s ease; /* Transición suave para el color del texto */
@@ -121,5 +111,20 @@ background-color: #cb9ea7; /* Color de fondo del botón */
     color: white;
 }
 
+.color2{
+    color: #ecdee1;
+}
+
+footer{
+    background-color: #7c747c;
+    text-align: center;
+    color:#ecdee1;    
+}
+
+.footer{
+    background-color: #7c747c;
+    color: #ecdee1;
+    height: 150px;
+}
 
 
