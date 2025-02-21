@@ -112,5 +112,28 @@ background-color: #cb9ea7; /* Color de fondo del botón */
     
 }
 
+.container { 
+font-family: Arial, sans-serif; margin: 100px; padding: 20px;
+max-width: 1000px;
+margin: auto; 
+padding: 20px; 
+border: 1px solid #cb9ea7; 
+border-radius: 10px; }
+label { font-weight: bold; 
+display: block; margin-top: 10px; }
+input, select, textarea { width: 100%; padding: 8px; 
+margin-top: 5px; }
+button { background-color:  #84444c; color: #ecdee1; padding: 20px; margin-top: 15px; border: none; cursor: pointer; }
+button:hover { background-color: #0f0c0d; }
+.result { margin-top: 20px; padding: 10px; border: 1px solid #ddd; 
 
+}
 
+.color{
+    border-color: #84444c;
+    background-color: #ecdee1;
+}
+ .color1{
+ background-color: #84444c;
+ color: white;
+}
