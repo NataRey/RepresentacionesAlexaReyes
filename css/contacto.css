@@ -114,16 +114,16 @@ background-color: #cb9ea7; /* Color de fondo del botón */
 
 .card {
     display: flex;
-    width: 50px;
-    height: 250px;
+    width: 5px;
+    height: 2px;
     border: 1px solid  #cb9ea7;
-    border-radius: 10px;
+    border-radius: 1px;
     background-color: #84444c;
     font-family: Arial, sans-serif;
 }
 
 .image-container {
-    width: 2px;
+    width: 1px;
     height: 5px;
     margin: 10px;
     border-radius: 10px;
