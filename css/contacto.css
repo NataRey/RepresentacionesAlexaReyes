@@ -123,17 +123,17 @@ background-color: #cb9ea7; /* Color de fondo del botón */
 }
 
 .image-container {
-    width: 20px;
-    height: 50px;
-    margin: 20px;
+    width: 2px;
+    height: 5px;
+    margin: 10px;
     border-radius: 10px;
     overflow: hidden;
     background-color: #84444c;
 }
 
 .image-container img {
-    width: 20%;
-    height: 50%;
+    width: 2%;
+    height: 5%;
     object-fit: cover;
 }
 
