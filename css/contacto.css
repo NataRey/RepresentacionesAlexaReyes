@@ -114,7 +114,7 @@ background-color: #cb9ea7; /* Color de fondo del botón */
 
 .card {
     display: flex;
-    width: 600px;
+    width: 100px;
     height: 250px;
     border: 1px solid  #cb9ea7;
     border-radius: 10px;
