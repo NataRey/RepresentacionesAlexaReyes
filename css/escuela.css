@@ -86,7 +86,7 @@ body {
   
   .image-item {
     border: 2px solid #84444c; /* Borde azul */
-    border-radius: 10px;
+    
     padding: 15px;
     text-align: center;
     cursor: pointer;
